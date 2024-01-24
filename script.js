@@ -7,6 +7,8 @@
 */
 
 const counterDisplay = document.querySelector('#counter-value')
+const minusBtn = document.querySelector('#minus-btn')
+const plusBtn = document.querySelector('#plus-btn')
 
 let counterValue = 0
 
@@ -14,11 +16,13 @@ let counterValue = 0
 function plus() {
     // counterValue++
     counterValue = counterValue + 1
+    counterDisplay.innerText = counterValue
 }
 
 const minus = () => {
     // counterValue--
     counterValue = counterValue - 1
+    counterDisplay.innerText = counterValue
 }
 
 // for (let i = 0; i < 10; i++) {
@@ -29,7 +33,10 @@ const minus = () => {
 //     minus()
 // }
 
+minusBtn.addEventListener('click', () => {
+    minus()
+})
 
-
-counterDisplay.innerText = counterValue
-
+plusBtn.addEventListener('click', () => {
+    plus()
+})

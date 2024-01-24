@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My last app | Counter</title>
     <script src="./script.js" defer></script>
+    <style>
+        section {
+            color: blue;
+        }
+
+        #counter-display {
+            background-color: black;
+            color: greenyellow;
+        }
+
+        .button {
+            border: none;
+            border-radius: 7px;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>My Last App:</h1>  
@@ -13,7 +29,9 @@
 
     <!-- Counter Display Area -->
     <section id="counter-display">
-        0
+        <h2 id="counter-value">
+            0
+        </h2>
     </section>
 
     <hr>

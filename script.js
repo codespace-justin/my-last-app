@@ -1,4 +1,6 @@
-/**
+
+/** DATATYPES:
+ * 
  * string = normal character used for display purposes
  * number = only numbers, they are used for sums / calculations / etc,  cant start with 0
  * boolean = true / false
@@ -6,12 +8,22 @@
  * float = normal numbers with decimal values
 */
 
+// constant : constant variable's values cannot be reassigned after they declared and they have to stay the same
 const counterDisplay = document.querySelector('#counter-value')
 const minusBtn = document.querySelector('#minus-btn')
+// console.log(minusBtn)
 const plusBtn = document.querySelector('#plus-btn')
+// console.log(plusBtn)
 
+
+// variable : let variable's value can be reassigned
 let counterValue = 0
 
+// never re-declare variable
+// let counterValue = 20
+
+// proper reassignment of variable
+// counterValue = 20
 
 function plus() {
     // counterValue++

@@ -11,8 +11,9 @@
 // constant : constant variable's values cannot be reassigned after they declared and they have to stay the same
 const counterDisplay = document.querySelector('#counter-value')
 const minusBtn = document.querySelector('#minus-btn')
-// console.log(minusBtn)
 const plusBtn = document.querySelector('#plus-btn')
+
+// console.log(minusBtn)
 // console.log(plusBtn)
 
 

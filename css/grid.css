@@ -1,0 +1,31 @@
+.calc-operations {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+.calc-numbers {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    border: 1px solid black;
+}
+
+.calc-numbers > button {
+    padding: 1rem 0;
+}
+
+#last-btn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* 
+#grid {
+    margin-top: 1rem;
+
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 40px 40px 40px 40px 10px ;
+} */

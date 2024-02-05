@@ -1,0 +1,26 @@
+section {
+    color: blue;
+}
+
+#counter-display {
+    background-color: black;
+    color: greenyellow;
+
+    display: flex;
+    justify-content: center;
+}
+
+#counter-controls {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#counter-controls > button {
+    padding: 20px;
+}
+
+.button {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+}

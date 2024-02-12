@@ -26,6 +26,8 @@ let counterValue = 0
 // proper reassignment of variable
 // counterValue = 20
 
+
+// takes counterValue, increments by 1, updates display
 function plus() {
     // counterValue++
     counterValue = counterValue + 1
@@ -53,3 +55,16 @@ minusBtn.addEventListener('click', () => {
 plusBtn.addEventListener('click', () => {
     plus()
 })
+
+/**
+ * Loops over elements of array and calls a function on each element in the array passed in
+ * @param {Array} arr - the array to iterate over
+ * @param {Function} fn - the function invoked per iteration
+ */
+function forEach(arr, fn) {
+    for (let i = 0; i < arr.length; i++) {
+      fn(arr[i]);
+    }
+  }
+
+forEach()
